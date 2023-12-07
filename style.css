@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(59,88,93), rgb(29,40,42));
+}
+
+button{
+    border: none;
+    background-color: inherit;
+    color:blanchedalmond;
+}
+
+#mudarImagensNext{
+   
+   font-size: 2em;
+   position: absolute;
+   margin-left: 420px;
+   margin-top: 300px;
+   
+   
+}
+
+#mudarImagensPrevious{
+    font-size: 2em;
+   position:absolute;
+   margin-right: 420px;
+   margin-top: 300px;
+   
+}
+
+#Images{
+    width: 350px;
+    margin: auto;
+}
